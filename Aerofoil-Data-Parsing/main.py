@@ -1,11 +1,10 @@
-
 import openpyxl
 import csv
 from pathlib import Path
 
-# ----------------------------------
-# 1. Load Excel workbook
-# ----------------------------------
+
+# Load Excel workbook
+
 
 excel_file = Path(__file__).parent / "Aerofoil+data (Turbine).xlsx"
 sheet = openpyxl.load_workbook(excel_file)
@@ -15,9 +14,8 @@ workbook = openpyxl.load_workbook(excel_file, data_only=True)
 sheet = workbook["Aerofoil table-With Z"]
 
 
-# ----------------------------------
-# 2. Define sections and Z values
-# ----------------------------------
+# Define sections and Z values
+
 
 sections = {
     "I-I":     {"z": 27.5, "ycc_col": 5, "ycv_col": 2},
@@ -27,16 +25,16 @@ sections = {
     "V-V":     {"z": 80.5, "ycc_col": 29, "ycv_col": 26}
 }
 
-# ----------------------------------
-# 3. Create output folder
-# ----------------------------------
+
+#Create output folder
+
 
 output_folder = Path(__file__).parent / "Aerofoil_DAT_Files"
 output_folder.mkdir(exist_ok=True)
 
-# ----------------------------------
-# 4. Generate the 10 DAT files
-# ----------------------------------
+
+# Generate the 10 DAT files
+
 
 for section, details in sections.items():
 
@@ -88,9 +86,5 @@ for section, details in sections.items():
             f"Deleted rows: {deleted_rows}"
         )
 
-# ----------------------------------
-# 5. Completion message
-# ----------------------------------
 
-print("\nAll 10 DAT files generated successfully!")
-print(f"Output location: {output_folder}")
+
