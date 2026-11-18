@@ -44,7 +44,7 @@ I referred to turbine blade profiles and technical material studied during my ai
 
 Where specific dimensions were unavailable, I used engineering judgement and estimated dimensions based on the available reference material and the overall blade geometry.
 
-## Python – Airfoil Coordinate Processing
+## Python - Airfoil Coordinate Processing
 
 One of the main parts of this project was writing a Python program in PyCharm to automate the processing of the airfoil coordinate data.
 
