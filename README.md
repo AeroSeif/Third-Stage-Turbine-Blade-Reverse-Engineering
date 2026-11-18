@@ -60,11 +60,11 @@ The Python source code is available in the `Aerofoil-Data-Parsing` folder.
 
 ## Siemens NX - CAD Reconstruction
 
-After generating the DAT files, I imported the airfoil coordinates into Siemens NX and reconstructed the individual profiles at their corresponding Z-heights.
+After generating the DAT files, I imported the airfoil (X, Y, Z) coordinates into Siemens NX using the Spline feature. I then reconstructed the individual airfoil profiles, connecting the leading and trailing edges to form closed curves, ready for surface generation using the Through Curves feature.
 
-I then used the five sections to develop the three-dimensional blade geometry, before completing the remaining features, including the platform and fir-tree attachment root.
+After using the five sections to develop the three-dimensional blade geometry, I moved on to completing the remaining features, including the platform and fir-tree attachment root.
 
-The final model was saved as a native Siemens NX part file.
+The final model was saved as a native Siemens NX part file. 
 
 ## Project Workflow
 
