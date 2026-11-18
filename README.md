@@ -1,4 +1,4 @@
-# Third-Stage Turbine Blade – Reverse Engineering
+# Third-Stage Turbine Blade - Reverse Engineering
 
 ## Project Overview
 
