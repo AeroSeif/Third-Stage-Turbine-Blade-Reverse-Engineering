@@ -58,7 +58,7 @@ This made it easier to transfer the sectional geometry into Siemens NX without h
 
 The Python source code is available in the `Aerofoil-Data-Parsing` folder.
 
-## Siemens NX – CAD Reconstruction
+## Siemens NX - CAD Reconstruction
 
 After generating the DAT files, I imported the airfoil coordinates into Siemens NX and reconstructed the individual profiles at their corresponding Z-heights.
 
