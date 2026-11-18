@@ -6,7 +6,7 @@ Reverse engineering of a third-stage turbine blade using Python-based airfoil co
 
 This project involved the reverse engineering and three-dimensional CAD reconstruction of a third-stage gas turbine blade, integrating computed tomography (CT) scanning, engineering interpretation, Python-based coordinate processing and Siemens NX modelling.
 
-The project began with the examination and digitisation of a physical turbine blade using CT scanning technology available through the Arab Organization for Industrialization (AOI) in Egypt.
+The project began with the examination and digitisation of a physical turbine blade using CT scanning technology.
 
 The acquired measurements, together with the interpretation of available geometric information and reference turbine blade profiles studied during EgyptAir maintenance training, provided the basis for reconstructing the component.
 
